@@ -1,7 +1,13 @@
 p {
     color: red;
 }
-
+.welcome{
+    border: 4px solid red;
+    /* external spacing */
+    margin: 32px;
+    /* internal spacing */
+    padding: 22px; 
+}
 /* styling the question class */
 .question{
     color:bisque;
@@ -11,3 +17,7 @@ p {
 .answer{
     color:rgb(19, 94, 233);
 } 
+
+.btn-q3{
+    margin-left: 20px;
+}
