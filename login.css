@@ -1,5 +1,74 @@
+body {
+    margin: 0;
+}
+
 header {
     text-align: center;
+}
+
+main {
+    margin-top:28px;
+    text-align: center;
+    box-shadow: 11px 11px 34px 2px rgba(0,0,0,0.76);
+    padding: 16px;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+}
+
+
+.form-input {
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 4px;   
+    outline: none; 
+}
+
+.form-input:focus {
+    border-color: red;
+}
+
+#submit-btn{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+#submit-btn:hover {
+    height: 75px;
+    width: 300px;
+    background-color: rgb(189, 90, 90);
+}
+
+label {
+    font-size: 18px;
+}
+
+#chat {
+    position: fixed;
+    bottom: 75px;
+    right: 50px;
+    z-index: 1;
+}
+
+#chat-btn {
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: brown;
+    border: none;
 }
 
 footer {
